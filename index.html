@@ -12,7 +12,7 @@
 <body>
     <div class="formulario">
         <h2>Dados do Paciente</h2>
-        <form id="formIMC">
+        <form id="formIMC" onsubmit="processaCalculo(event)">
             <label for="nome">Nome Completo</label>
             <input type="text" id="nome" placeholder="Ex: Maria Silva" minlength="2" maxlength="100" required title="Informe o nome completo">
             
